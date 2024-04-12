@@ -1,0 +1,93 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    background-color: black;
+
+    
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+.logo{
+    font-size: 40px;
+    color: red;
+}
+
+
+.hero{
+    background-color: rgba(0,0,0,0.82);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.overlay{
+    color: white;
+    background-image: url(./images/cover.jpg);
+    height: 60dvh;
+    background-size: cover;
+}
+.hero-one > h1{
+    font-size: 50px;
+}
+.hero-one > h1 > span{
+    color: #007aff;
+}
+button{
+    padding: 20px;
+    background-color: white;
+    color: #007aff;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+.main-text{
+    text-align: center;
+    font-size: 30px;
+}
+.container, .container-two{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+    
+.container >div{
+    box-shadow: rgba(99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+}
+.container-two > div {
+    box-shadow: rgba(99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+}
+.about{
+    color: black;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 23px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
